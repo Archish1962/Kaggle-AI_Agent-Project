@@ -4,7 +4,7 @@ An intelligent, multi-agent assistant built with **ADK 2.0** and **Gemini 2.5** 
 
 ---
 
-## 🌟 Key Capabilities
+## Key Capabilities
 
 *   **Multi-Agent Coordination**: Orchestrates trip planning between specialized agents:
     *   **Route Planner Agent**: Calculates the path and selects charging stations.
@@ -24,7 +24,7 @@ An intelligent, multi-agent assistant built with **ADK 2.0** and **Gemini 2.5** 
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```text
 ev-route-planner/
@@ -42,7 +42,7 @@ ev-route-planner/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 Install the project dependencies using `uv` (ensure you have `uv` installed):
@@ -71,7 +71,7 @@ Access the interactive API documentation (Swagger UI) at **[http://localhost:800
 
 ---
 
-## 🔑 External APIs & Credentials
+## External APIs & Credentials
 
 The MCP Server (`app/mcp_server.py`) wraps four APIs:
 1.  **Open-Meteo**: Used for weather checks (free, no key required).
@@ -95,7 +95,7 @@ OPEN_CHARGE_MAP_KEY=your_openchargemap_key
 
 ---
 
-## 🧪 Verification and Testing
+## Verification and Testing
 
 ### Automated Tests
 Run the suite of unit and compilation tests:
@@ -121,7 +121,7 @@ Test the three execution paths in the Playground UI:
 
 ---
 
-## ☁️ Deployment
+## Deployment
 
 Deploy the agent to the Google Cloud Agent Runtime:
 ```bash
